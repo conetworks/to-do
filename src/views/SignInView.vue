@@ -6,7 +6,13 @@
       >
         <form @submit="loginWithEmailAndPassword">
           <div class="mb-3 text-center">
-            <h1>Cnetworks Login!</h1>
+            <img
+              src="../images/logo.png"
+              alt="logo"
+              style="height: 6rem"
+              class="bg-secondary"
+            />
+            <h1>Login!</h1>
           </div>
           <hr />
           <div

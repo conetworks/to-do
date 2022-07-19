@@ -1,6 +1,6 @@
 <template>
   <li
-    class="list-group-item"
+    class="list-group-item px-5 py-4 m-2 rounded-pill shadow"
     style="--bs-bg-opacity: 0.2"
     :class="getBackground"
   >
@@ -48,7 +48,7 @@ export default {
   },
   computed: {
     getBackground() {
-      return this.item.isChecked ? "bg-success" : "bg-warning";
+      return this.item.isChecked ? "bg-secondary" : "bg-warning";
     },
   },
   methods: {

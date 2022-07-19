@@ -1,5 +1,11 @@
 <template>
-  <h1>Contractual Networks Tasks!</h1>
+  <img
+    src="../images/logo.png"
+    alt="logo"
+    style="height: 6rem"
+    class="bg-secondary"
+  />
+  <h1>Tasks!</h1>
   <img class="mb-3 rounded-pill" v-if="!!this.getPhoto" :src="this.getPhoto" />
   <div v-if="!!this.getDisplayName">
     <h5>Display Name</h5>
